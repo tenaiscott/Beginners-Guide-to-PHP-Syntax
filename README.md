@@ -1,4 +1,4 @@
-# PHP Syntax Guide
+# Beginners Guide to PHP Syntax
 
 
 ## Commenting
