@@ -2,7 +2,7 @@
 
 
 ## Commenting
----
+
 
 ```
 // This is a single line comment
@@ -11,7 +11,7 @@
 ```
 
 ## Defining Variables 
----
+
 
 ```
 <?php
@@ -25,7 +25,7 @@
 - Variable names cannot contain spaces.
 
 ## Echo & Print Statements
----
+
 
 _**Echo** and **print** are both used to output data to the screen_
 
@@ -58,7 +58,7 @@ Print can only accept one argument, and has a return value of 1, making it usefu
 ```
 
 ## Data Types 
----
+
 
 The following data types are supported in PHP:
 
@@ -71,7 +71,7 @@ The following data types are supported in PHP:
 - NULL 
 - Resource
 
-## Integers
+### Integers
 
 Integers are non-decimal whole numbers between -2,147,483,648 and 147,483,647.  Numbers can be in decimal, hexadecimal, or octal.
 
@@ -81,7 +81,7 @@ Integers are non-decimal whole numbers between -2,147,483,648 and 147,483,647.  
 ?>
 ```
 
-## Strings
+### Strings
 
 Strings are sequences of characters enclosed in single or double quotes.
 
@@ -91,11 +91,11 @@ Strings are sequences of characters enclosed in single or double quotes.
 ?>
 ```
 
-## Floating Point Numbers
+### Floating Point Numbers
 
 A floating point number is a number in exponential form, or a number with a decimal point.
 
-## Booleans
+### Booleans
 
 Booleans are true/ false statements where 1 = true and 0 = false.
 
@@ -105,7 +105,7 @@ Booleans are true/ false statements where 1 = true and 0 = false.
 ?>
 ```
 
-## Arrays
+### Arrays
 
 Arrays are variables that hold several values.
 
@@ -117,7 +117,7 @@ Arrays are variables that hold several values.
 ?>
 ```
 
-## Objects
+### Objects
 
 Objects store data and information on how the data should be processed.  
 
@@ -148,7 +148,7 @@ Objects are created by first declaring the parent class of the object, then crea
 ?>
 ```
 
-## NULL Values
+### NULL Values
 
 NULL values represent empty variables that have no data assigned to them.  The value of NULL can only be NULL.  If a variable has not been assigned a value, it will automatically be considered a NULL value.
 
@@ -159,7 +159,7 @@ NULL values represent empty variables that have no data assigned to them.  The v
 ?>
 ```
 
-## Resources
+### Resources
 
 Resources are not a data type in the traditional sense.  A resource references an external source such as a database. 
 
@@ -173,9 +173,9 @@ if($database = mysqli_connect('localhost','user','password','database')){
 ```
 
 ## Strings & String Functions
----
 
-## Strings
+
+### Strings
 
 Strings are sequences of characters enclosed in single('') or double ("")quotations.
 
@@ -203,7 +203,7 @@ Double quoted strings, on the other hand, can interpret variables and can also r
 ?>
 ```
 
-## Escape Sequences
+### Escape Sequences
 
 |    	|                 	|
 |----	|-----------------	|
@@ -219,11 +219,11 @@ Double quoted strings, on the other hand, can interpret variables and can also r
 | \" 	| Double Quote    	|
 
 
-## String Functions
+### String Functions
 
 Below are some commonly used string functions.
 
-## strlen()
+### strlen()
 strlen() displays the number of characters within a string, including spaces.
 
 ```
@@ -234,7 +234,7 @@ strlen() displays the number of characters within a string, including spaces.
 // outputs "34"
 ```
 
-## str_word_count()
+### str_word_count()
 str_word_count() displays the number of words within a string, including spaces.
 
 ```
@@ -245,7 +245,7 @@ str_word_count() displays the number of words within a string, including spaces.
 // outputs "7"
 ```
 
-## strrev()
+### strrev()
 strrev() displays the string in reverse.
 
 ```
@@ -256,7 +256,7 @@ strrev() displays the string in reverse.
 // outputs "sdrawkcab oG"
 ```
 
-## strpos()
+### strpos()
 strpos() makes it possible to search the text within a string.  If the search is successful, it returns the position of the result (starting position is 0).  Otherwise, it will return "False".
 
 ```
@@ -270,7 +270,7 @@ strpos() makes it possible to search the text within a string.  If the search is
 // outputs "10"
 ```
 
-## str_replace
+### str_replace
 
 str_replace is used for replacing certain text within a string.
 
@@ -286,20 +286,20 @@ str_replace is used for replacing certain text within a string.
 ```
 
 ## Numbers
----
 
-## Integers
+
+### Integers
 
 As discussed above, Integers are non-decimal whole numbers between -2,147,483,648 and 147,483,647.  Numbers can be in decimal, hexadecimal, or octal.
 
-### Integer Rules
+#### Integer Rules
 
 - Integers must contain atleast one digit
 - Integers cannot contain decimal points
 - Integers can be either positive or negative
 - Integers be in decimal, hexadecimal, or octal format.
 
-### 3 Ways to Check if a Variable is an Integer
+#### 3 Ways to Check if a Variable is an Integer
 
 - is_int()
 - is_integer()
@@ -391,7 +391,7 @@ NaN stand for Not a Number, and is used for impossible mathematical operations.
 ```
 
 ## Constants
----
+
 
 A constant is a variable like identifier, but unlike variables, a constant cannot be changeD.  Constants are globally scoped.
 
@@ -409,7 +409,7 @@ Constant names must begin with a letter or underscore, no $ is required at the b
 ```
 
 ## Operators
----
+
 
 ### Arithmetic Operators
 
@@ -489,7 +489,7 @@ The increment/decrement operators are used to increment/decrement a variables va
 | .=      	| Used to append the argument on the right to the left argument                            	    |
 
 ## Conditional Statements
----
+
 
 ### If Statement
 
@@ -528,7 +528,7 @@ if (condition) {
 ```
 
 ## Functions
----
+
 
 ### Built In Functions
 
@@ -555,7 +555,7 @@ function function_name($first_parameter, $second_parameter) {
 ```
 
 ## Arrays
----
+
 
 Arrays are variables that hold several values of a similar data type.
 
@@ -581,7 +581,7 @@ Arrays are variables that hold several values of a similar data type.
 ```
 
 ## Loops
----
+
 
 Loops are used to execute the same code over and over again, if a certain condition has been met.
 
